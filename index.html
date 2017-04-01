@@ -1,23 +1,59 @@
 
 <body>
 
-  <h1>JACK DUMP</h1>
-  <h1>USA</h1>
+  <div id="header-container">
+    <h1 style="background-color: white; color: red">JACK</h1>
+    <h1 style="background-color: blue; color: white">DUMP</h1>
+    <h1 style="background-color: red; color: blue">USA</h1>
+  </div><div id="state-description"></div>
   <h2 id="state-playing"></h2>
 
   <div id="map-container">
     <svg id="map"></svg>
   </div>
-  <div id="state-plays">
-
-  </div>
+  <div id="state-plays"></div>
 
 </body>
 
 <style>
+  @import url('https://fonts.googleapis.com/css?family=Futura');
+  * { padding: 0; margin: 0; }
   body {
-    background-color: #ddd;
+    background-color: #DC4772;
     overflow-x: hidden;
+    font-family: 'Futura', sans-serif;
+  }
+
+  #header-container {
+    display: inline-block;
+    width: 200px;
+    margin: auto;
+  }
+  #header-container h1{
+    padding: 5px;
+    font-size: 30px;
+  }
+
+  #state-description {
+    position: fixed;
+    right: 0;
+    top: 0;
+    color: black;
+    background-color: #fff;
+    opacity: 0.8;
+    z-index: 100;
+    width: calc(100% - 200px);
+    max-height: 150px;
+    overflow: hidden;
+  }
+
+  #map-container {
+    padding: 3%;
+  }
+
+  #state-plays {
+    text-align: center;
+    font-size: 20px;
   }
 
   .state {
@@ -31,11 +67,13 @@
   .state:active {
     fill: #733;
   }
+
 </style>
 <script>
   const $map = document.getElementById('map')
   const $mapContainer = document.getElementById('map-container')
   const $statePlays = document.getElementById('state-plays')
+  const $stateDescription = document.getElementById('state-description')
 
   const MAP_HEIGHT = 600
   const MAP_WIDTH = 940
@@ -103,15 +141,21 @@
     const states = {}
     for (let state in paths) {
       const path = paths[state]
+      const description = state + ' is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.'
       const $stateEl = document.createElementNS('http://www.w3.org/2000/svg', 'path')
       $stateEl.setAttributeNS(null, 'id', state)
       $stateEl.setAttributeNS(null, 'class', 'state')
       $stateEl.setAttributeNS(null, 'd', path)
 
+
       const playSong = () => document.getElementById('state-playing').innerHTML = 'Current State: ' + state
       $stateEl.onclick = playSong
+      $stateEl.onmouseover = () => renderStateDescription({ description })
+      $stateEl.onmouseout = () => renderStateDescription({})
+
 
       states[state] = {
+        description,
         path,
         playSong,
         $stateEl
@@ -119,6 +163,10 @@
     }
 
     return states
+  }
+
+  function renderStateDescription({description=''}) {
+    $stateDescription.innerHTML = description
   }
 
   function renderMap({states, scale}) {
