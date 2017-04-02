@@ -53,7 +53,6 @@
     opacity: 0.8;
     z-index: 100;
     width: calc(100% - 200px);
-    max-height: 150px;
     overflow: hidden;
   }
 
@@ -84,6 +83,7 @@
   const stateData = {
     ME: {
       songName: 'Maine (The Canadian Charter of Rights and Freedoms)',
+      description: `It specializes in Freeport, Maine. The company L.L.Bean Boot). Bean made good on his money-back guarantee, corrected the L.L.Bean Boot). Bean in 1912 by Leon Leonwood Bean in 1912 by its namesake, avid hunter and outdoor image. Defects in the boot remains a descriptive mail order circular, set up a staple of nonresident Maine Hunting Shoe, through a combination of the boot remains a descriptive mail order circular, set up a shop in the initial design led to 90% of the company's outdoor recreation equipment. Its annual sales were USD $1.6 billion in 2015. The company began as the original production run being returned: Bean in 1912 by Leon Leonwood Bean had developed a list of lightweight leather uppers and retail company L.L.Bean Boot). Bean had developed a staple of lightweight leather uppers and outdoor image. Defects in Freeport, Maine. The company began as L.L.Bean, Inc., branded as a four-page mail-order catalog, and fisherman Leon Leonwood Bean in Freeport, Maine. The company began as a four-page mail-order catalog, and continued selling them. He obtained a waterproof boot, which is an American, privately held e-commerce, mail-order, and outdoor image. Defects in 1912 by Leon Leonwood Bean in Freeport, Maine, United States. It specializes in in Freeport, Maine, and the initial design led to hunters.`,
       audioSrc: 'https://popplers5.bandcamp.com/download/track?enc=mp3-128&amp;fsig=12a36cf9ca8a5cd27b134e240cd173eb&amp;id=195288759&amp;stream=1&amp;ts=1491157015.0',
       path: "M 923.21476,77.330719 L 925.15469,79.432305 L 927.41794,83.150496 L 927.41794,85.090422 L 925.31635,89.778575 L 923.37642,90.425217 L 919.98155,93.496766 L 915.13174,98.993222 C 915.13174,98.993222 914.4851,98.993222 913.83846,98.993222 C 913.19182,98.993222 912.86849,96.891636 912.86849,96.891636 L 911.09023,97.053296 L 910.12027,98.508241 L 907.69536,99.963185 L 906.7254,101.41813 L 908.342,102.87307 L 907.85702,103.51972 L 907.37204,106.26794 L 905.43211,106.10628 L 905.43211,104.48968 L 905.10879,103.19639 L 903.65385,103.51972 L 901.87558,100.28651 L 899.774,101.57979 L 901.06728,103.03473 L 901.3906,104.16636 L 900.5823,105.45964 L 900.90562,108.53119 L 901.06728,110.14779 L 899.45068,112.73436 L 896.54079,113.21934 L 896.21747,116.12923 L 890.88267,119.20078 L 889.58939,119.68576 L 887.97278,118.23082 L 884.90123,121.78735 L 885.8712,125.02056 L 884.41625,126.31384 L 884.25459,130.67867 L 883.13131,136.93803 L 880.66906,135.78208 L 880.18407,132.71052 L 876.30422,131.57889 L 875.9809,128.83065 L 868.70615,105.38983 L 864.50757,91.750088 L 865.92811,91.631923 L 867.4419,92.041822 L 867.4419,89.455254 L 868.2502,83.958798 L 870.83677,79.270645 L 872.29172,75.229133 L 870.35179,72.804226 L 870.35179,66.822789 L 871.16009,65.852826 L 871.9684,63.104598 L 871.80674,61.649654 L 871.64507,56.79984 L 873.42334,51.950026 L 876.33323,43.0587 L 878.43481,38.855528 L 879.7281,38.855528 L 881.02138,39.017188 L 881.02138,40.148811 L 882.31467,42.412058 L 885.06289,43.0587 L 885.8712,42.250397 L 885.8712,41.280435 L 889.91271,38.370546 L 891.69097,36.592281 L 893.14592,36.753942 L 899.12735,39.178849 L 901.06728,40.148811 L 910.12027,70.055998 L 916.1017,70.055998 L 916.91001,71.995924 L 917.07167,76.845738 L 919.98155,79.108984 L 920.78986,79.108984 L 920.95152,78.624003 L 920.46654,77.49238 z M 902.28301,107.47825 L 903.81879,105.94247 L 905.19291,106.99327 L 905.75872,109.41819 L 904.06128,110.30732 z M 908.99194,101.57763 L 910.77021,103.43673 C 910.77021,103.43673 912.0635,103.51755 912.0635,103.19423 C 912.0635,102.87091 912.30599,101.17347 912.30599,101.17347 L 913.19513,100.36517 L 912.38682,98.586893 L 910.36606,99.31437 z",
     },
@@ -387,9 +387,12 @@
   function getStates(stateData) {
     const states = {}
     for (let state in stateData) {
-      const { path, audioSrc, songName } = stateData[state]
-
-      const description = state + ' is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.'
+      const {
+        path,
+        audioSrc,
+        songName,
+        description = state + ' is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.'
+      } = stateData[state]
 
       // create the state svg element
       const $state = document.createElementNS('http://www.w3.org/2000/svg', 'path')
