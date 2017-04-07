@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+
+* { padding: 0; margin: 0; }
+
+body {
+  background-color: #DC4772;
+  overflow-x: hidden;
+  font-family: 'Varela Round', sans-serif;
+}
+
+#header-container {
+  display: inline-block;
+  width: 160px;
+  margin: auto;
+  letter-spacing: 7;
+}
+#header-container h1{
+  padding: 5px;
+  font-size: 30px;
+  padding-left: 10px;
+}
+
+#state-playing {
+  margin: 15px auto;
+  padding: 10px;
+  text-align: center;
+  z-index: 2;
+}
+#state-playing-content {
+  display: inline-block;
+  background-color: black;
+  color: #DC4772;
+  padding: 10px;
+  border-radius: 5px;
+}
+#state-playing-content.clickable {
+  cursor: pointer;
+}
+
+#state-description {
+  position: fixed;
+  right: 0;
+  top: 0;
+  pointer-events: none;
+  color: black;
+  background-color: #fff;
+  opacity: 0.8;
+  z-index: -1;
+  width: calc(100% - 160px);
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+
+#map-container {
+  padding: 0 3%;
+}
+
+#state-plays {
+  padding: 40px 15px calc(100vh - 80px) 15px;
+  font-size: 30px;
+}
+
+.state-play {
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 10px 5px;
+}
+.state-play:hover {
+  background-color: black;
+  color: #DC4772;
+}
+
+.state {
+  cursor: pointer;
+}
+
+.state:hover {
+  fill: #333;
+}
+
+.state:active {
+  fill: #733;
+}
+
+footer {
+  text-align: right;
+  height: 80px;
+  font-size: 20px;
+  padding: 5px;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  background-color: black;
+}
