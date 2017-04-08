@@ -309,7 +309,7 @@ var AudioPlayer = {
 };
 
 function createAudioElem(src) {
-  $audio = document.createElement('audio');
+  var $audio = document.createElement('audio');
   $audio.setAttribute('src', src);
   $audio.setAttribute('style', 'width: 0px; height: 0px; visibility: hidden;');
   $audio.loop = true;
