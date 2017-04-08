@@ -385,8 +385,8 @@ function renderStateDescription(description='') {
 
 function renderMap({states, scale}) {
   $map.innerHTML = ''
-  $mapContainer.style.height = MAP_HEIGHT * scale
-  $mapContainer.style.width = MAP_WIDTH * scale
+  $mapContainer.style.height = MAP_HEIGHT * scale + 'px'
+  $mapContainer.style.width = MAP_WIDTH * scale + 'px'
 
   for (let state in states) {
     $map.appendChild(states[state].$state)

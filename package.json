@@ -1,0 +1,25 @@
+{
+  "name": "usa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.3.3"
+  },
+  "scripts": {
+    "babel": "babel dev.js --out-file index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scyclow/jackdump-usa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scyclow/jackdump-usa/issues"
+  },
+  "homepage": "https://github.com/scyclow/jackdump-usa#readme"
+}
