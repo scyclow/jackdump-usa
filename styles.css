@@ -10,7 +10,7 @@ body {
 
 #header-container {
   display: inline-block;
-  width: 160px;
+  width: 159px;
   margin: auto;
   letter-spacing: 7;
   text-decoration: none;
@@ -40,17 +40,19 @@ body {
 
 #state-description {
   position: fixed;
-  right: 0;
-  top: 0;
   pointer-events: none;
   color: black;
   background-color: #fff;
   opacity: 0.8;
-  z-index: -1;
-  width: calc(100% - 160px);
+  width: calc(100% - 159px);
   overflow: hidden;
   box-sizing: border-box;
   padding: 0 5px;
+
+  right: 0;
+  top: 0;
+
+  z-index: -1;
 }
 
 #map-container {
@@ -66,10 +68,12 @@ body {
   text-decoration: underline;
   cursor: pointer;
   padding: 10px 5px;
+  z-index: -2
 }
 .state-play:hover {
   background-color: black;
   color: #DC4772;
+  z-index: 2;
 }
 
 .state {
