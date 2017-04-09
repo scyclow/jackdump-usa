@@ -457,14 +457,12 @@ function renderStateDescription(description='', event, descriptionFontSize) {
       ? 0
       : clientY - descriptionHeight
 
-    Object.assign($stateDescription.style, {
-      padding: '.7em .8em',
-      left: x + 'px',
-      top: y + 'px',
-      'font-size': descriptionFontSize ? descriptionFontSize+'px' : ''
-    })
+    $stateDescription.style.padding = '.7em .8em'
+    $stateDescription.style.left = x + 'px'
+    $stateDescription.style.top = y + 'px'
+    $stateDescription.style['font-size'] = descriptionFontSize ? descriptionFontSize+'px' : ''
   } else {
-    Object.assign($stateDescription.style, { padding: '0' })
+    $stateDescription.style.padding = '0'
   }
 }
 
