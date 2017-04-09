@@ -490,9 +490,11 @@ function renderMap(_ref) {
 
   var translateOffset = getOffset(scale) * -100 + '%';
 
-  $map.style['transform'] = '\n    scaleX(' + scale + ')\n    scaleY(' + scale + ')\n    translateX(' + translateOffset + ')\n    translateY(' + translateOffset + ')\n  ';
+  var transformStyles = '\n    scaleX(' + scale + ')\n    scaleY(' + scale + ')\n    translateX(' + translateOffset + ')\n    translateY(' + translateOffset + ')\n  ';
 
-  $map.style['-webkit-transform'] = '\n    scaleX(' + scale + ')\n    scaleY(' + scale + ')\n    translateX(' + translateOffset + ')\n    translateY(' + translateOffset + ')\n  ';
+  $map.style['transform'] = transformStyles;
+  $map.style['-webkit-transform'] = transformStyles;
+  $map.style['-ms-transform'] = transformStyles;
 
   return states;
 }

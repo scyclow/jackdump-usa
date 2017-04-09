@@ -477,19 +477,16 @@ function renderMap({states, scale}) {
 
   const translateOffset = (getOffset(scale) * -100) + '%'
 
-  $map.style['transform'] = `
+  const transformStyles = `
     scaleX(${scale})
     scaleY(${scale})
     translateX(${translateOffset})
     translateY(${translateOffset})
   `
 
-  $map.style['-webkit-transform'] = `
-    scaleX(${scale})
-    scaleY(${scale})
-    translateX(${translateOffset})
-    translateY(${translateOffset})
-  `
+  $map.style['transform'] = transformStyles
+  $map.style['-webkit-transform'] = transformStyles
+  $map.style['-ms-transform'] = transformStyles
 
   return states
 }
