@@ -139,7 +139,7 @@ var stateData = {
   MI: {
     songName: 'Michigan (Frontier)',
     description: 'Open your eyes<br> It\u2019s just a new frontier to gentrify<br> Pack up your bags and we\u2019ll steal Detroit<br> Making sure we snap up the cheap property<br> Like rats<br> <br> New colonies<br> A termite hive for hipster centipedes<br> Burrowing into the skin of dregs<br> Opening vegan muffin shops in the hood<br> Like rats<br> <br> Alleyway blues<br> I bought some molly of some locals at school<br> I helped their basketball team go to the cup<br> Courtside sweatin\u2019 with molly<br> <br> Cheering them on<br> And buying up their family businesses too<br> And hopefully they\u2019ll move to Kalamazoo<br> Courtside chillin\u2019 with auntie<br> <br> Into Dearborn<br> Evict the Arabs and make kiddie porn<br> Right in the mosque where their God failed them<br> We can sell to the motor industry suits<br> Like rats<br> <br> Dressing the set<br> I\u2019m clad I haven\u2019t met the talent yet<br> I get so nervous at formal gigs<br> Passionate scenes are why I moved to the \u2018burbs<br> Like rats<br> <br> Breaking the door<br> Police are raiding my new grocery store<br> It\u2019s kinda like Whole Foods, but it\u2019s kinda not<br> You know we do organic<br> <br> Hot USBs<br> Containing images of sick fantasies<br> A list of clients and their preferences<br> You know it\u2019s all organic<br> <br> I go to jail<br> And every now and then I get some mail<br> Telling me I\u2019m a philanthropist<br> Carving a path for condominium life<br> Like rats<br>',
-    descriptionFontSize: 12,
+    descriptionFontSize: 11.5,
     audioSrc: 'https://popplers5.bandcamp.com/download/track?enc=mp3-128&fsig=465b1f577e2d42485b2a8bb7bc75a2a1&id=2739374123&stream=1&ts=1491161076.0',
     path: "M 581.61931,82.059006 L 583.4483,80.001402 L 585.62022,79.201221 L 590.99286,75.314624 L 593.27908,74.743065 L 593.73634,75.200319 L 588.59232,80.344339 L 585.27728,82.287628 L 583.21967,83.202124 z M 667.79369,114.18719 L 668.44033,116.69293 L 671.67355,116.85459 L 672.96684,115.64213 C 672.96684,115.64213 672.88601,114.18719 672.56269,114.02552 C 672.23936,113.86386 670.94608,112.16642 670.94608,112.16642 L 668.76366,112.40891 L 667.14704,112.57057 L 666.82372,113.7022 z M 697.86007,177.23689 L 694.62686,168.9922 L 692.36361,159.93922 L 689.93871,156.70601 L 687.35214,154.92774 L 685.73554,156.05937 L 681.85568,157.83763 L 679.91576,162.84911 L 677.16753,166.5673 L 676.03591,167.21394 L 674.58096,166.5673 C 674.58096,166.5673 671.9944,165.11235 672.15606,164.46571 C 672.31772,163.81907 672.64104,159.45424 672.64104,159.45424 L 676.03591,158.16095 L 676.84421,154.76608 L 677.49085,152.17952 L 679.91576,150.56291 L 679.59244,140.53996 L 677.97583,138.27672 L 676.68255,137.46841 L 675.87425,135.36683 L 676.68255,134.55853 L 678.29915,134.88185 L 678.46081,133.26524 L 676.03591,131.00199 L 674.74262,128.41543 L 672.15606,128.41543 L 667.62956,126.96048 L 662.13311,123.56561 L 659.38488,123.56561 L 658.73824,124.21226 L 657.76827,123.72727 L 654.69673,121.46403 L 651.78684,123.24229 L 648.87695,125.50554 L 649.20027,129.06207 L 650.17023,129.38539 L 652.27182,129.87037 L 652.7568,130.67867 L 650.17023,131.48698 L 647.58367,131.8103 L 646.12872,133.58856 L 645.8054,135.69015 L 646.12872,137.30675 L 646.45204,142.80321 L 642.89551,144.9048 L 642.24887,144.74313 L 642.24887,140.53996 L 643.54215,138.11506 L 644.1888,135.69015 L 643.38049,134.88185 L 641.44057,135.69015 L 640.4706,139.89332 L 637.72238,141.02494 L 635.94411,142.96487 L 635.78245,143.93483 L 636.42909,144.74313 L 635.78245,147.3297 L 633.5192,147.81468 L 633.5192,148.94631 L 634.32751,151.37121 L 633.19588,157.51431 L 631.57928,161.55582 L 632.22592,166.24398 L 632.7109,167.3756 L 631.9026,169.80051 L 631.57928,170.60881 L 631.25596,173.35704 L 634.81249,179.33847 L 637.72238,185.80489 L 639.17732,190.65471 L 638.36902,195.34286 L 637.39906,201.3243 L 634.97415,206.49743 L 634.65083,209.24566 L 631.39196,212.33081 L 635.80057,212.16876 L 657.21906,209.90551 L 664.4969,208.91845 L 664.59327,210.5848 L 671.44521,209.37234 L 681.74329,207.86921 L 685.59749,207.4083 L 685.73554,206.82075 L 685.8972,205.36581 L 687.99878,201.64762 L 689.99934,199.90977 L 689.77705,194.85788 L 691.37404,193.26089 L 692.46466,192.91795 L 692.68694,189.36142 L 694.22271,186.3303 L 695.2735,186.93652 L 695.43516,187.58316 L 696.24347,187.74482 L 698.18339,186.77486 z M 567.49209,111.21318 L 568.20837,110.63278 L 570.9566,109.82447 L 574.51313,107.56123 L 574.51313,106.59126 L 575.15978,105.94462 L 581.14121,104.97466 L 583.56612,103.03473 L 587.93095,100.93315 L 588.09261,99.639864 L 590.03254,96.729975 L 591.8108,95.921673 L 593.10409,94.143408 L 595.36733,91.880161 L 599.73217,89.455254 L 604.42032,88.970273 L 605.55194,90.101896 L 605.22862,91.071859 L 601.51043,92.041822 L 600.05549,95.113371 L 597.79224,95.921673 L 597.30726,98.34658 L 594.88235,101.57979 L 594.55903,104.16636 L 595.36733,104.65134 L 596.3373,103.51972 L 599.89383,100.60983 L 601.18711,101.90311 L 603.45036,101.90311 L 606.68357,102.87307 L 608.13851,104.0047 L 609.59345,107.07625 L 612.34168,109.82447 L 616.22153,109.66281 L 617.67648,108.69285 L 619.29308,109.98613 L 620.90969,110.47112 L 622.20297,109.66281 L 623.33459,109.66281 L 624.9512,108.69285 L 628.99271,105.13632 L 632.38758,104.0047 L 639.01566,103.68138 L 643.54215,101.74145 L 646.12872,100.44817 L 647.58367,100.60983 L 647.58367,106.26794 L 648.06865,106.59126 L 650.97853,107.39957 L 652.91846,106.91458 L 659.06156,105.29798 L 660.19318,104.16636 L 661.64813,104.65134 L 661.64813,111.60274 L 664.88134,114.67429 L 666.17462,115.32093 L 667.4679,116.29089 L 666.17462,116.61421 L 665.36632,116.29089 L 661.64813,115.80591 L 659.54654,116.45255 L 657.28329,116.29089 L 654.05008,117.74584 L 652.27182,117.74584 L 646.45204,116.45255 L 641.27891,116.61421 L 639.33898,119.20078 L 632.38758,119.84742 L 629.96267,120.65572 L 628.83105,123.72727 L 627.53777,124.8589 L 627.05279,124.69724 L 625.59784,123.08063 L 621.07135,125.50554 L 620.42471,125.50554 L 619.29308,123.88893 L 618.48478,124.05059 L 616.54486,128.41543 L 615.57489,132.45694 L 612.39377,139.45774 L 611.21701,138.42347 L 609.84527,137.39215 L 607.90449,127.10413 L 604.36001,125.73408 L 602.30743,123.44785 L 590.18707,120.70437 L 587.3318,119.67473 L 579.10138,117.50199 L 571.21139,116.35887 z"
   },
@@ -307,6 +307,15 @@ var stateData = {
     path: "M 233.08751,519.30948 L 235.02744,515.75293 L 237.2907,515.42961 L 237.61402,516.23791 L 235.51242,519.30948 z M 243.27217,515.59127 L 249.4153,518.17784 L 251.51689,517.85452 L 253.1335,513.97465 L 252.48686,510.57977 L 248.28366,510.09479 L 244.24213,511.87306 z M 273.9878,525.61427 L 277.706,531.11074 L 280.13092,530.78742 L 281.26255,530.30244 L 282.7175,531.59573 L 286.43571,531.43407 L 287.40568,529.97912 L 284.49577,528.20085 L 282.55584,524.48263 L 280.45424,520.92609 L 274.63444,523.83599 z M 294.19545,534.50564 L 295.48874,532.5657 L 300.17691,533.53566 L 300.82356,533.05068 L 306.96668,533.69732 L 306.64336,534.99062 L 304.05678,536.44556 L 299.69193,536.12224 z M 299.53027,539.67879 L 301.47021,543.55866 L 304.54176,542.42703 L 304.86509,540.81041 L 303.24848,538.70882 L 299.53027,538.3855 z M 306.4817,538.54716 L 308.74496,535.63726 L 313.43313,538.06218 L 317.79798,539.19381 L 322.16284,541.94205 L 322.16284,543.88198 L 318.6063,545.66026 L 313.75645,546.63022 L 311.33154,545.17527 z M 323.13281,554.06663 L 324.74942,552.77335 L 328.14431,554.38997 L 335.74238,557.94651 L 339.13727,560.0481 L 340.75387,562.47302 L 342.69381,566.83787 L 346.73534,569.42445 L 346.41202,570.71775 L 342.53215,573.95097 L 338.32896,575.40592 L 336.87401,574.75928 L 333.80244,576.53754 L 331.37753,579.77077 L 329.11427,582.68067 L 327.33599,582.51901 L 323.77945,579.93243 L 323.45613,575.40592 L 324.10277,572.981 L 322.48616,567.32286 L 320.38456,565.54458 L 320.2229,562.958 L 322.48616,561.98804 L 324.58776,558.91648 L 325.07274,557.94651 L 323.45613,556.16823 z"
   }
 };
+
+// Utility functions
+var getScale = function getScale() {
+  return window.innerWidth / 1000;
+};
+var getOffset = function getOffset(scale) {
+  return (1 - scale) / (2 * scale);
+};
+
 var MAP_HEIGHT = 600;
 var MAP_WIDTH = 940;
 
@@ -319,14 +328,6 @@ var $statePlaying = document.getElementById('state-playing-content');
 
 $map.setAttributeNS(null, 'height', MAP_HEIGHT);
 $map.setAttributeNS(null, 'width', MAP_WIDTH);
-
-// Utility functions
-var getScale = function getScale() {
-  return window.innerWidth / 1000;
-};
-var getOffset = function getOffset(scale) {
-  return (1 - scale) / (2 * scale);
-};
 
 // Audio Player
 var AudioPlayer = {
@@ -378,7 +379,7 @@ function getStates(stateData) {
         songName = _stateData$state.songName,
         descriptionFontSize = _stateData$state.descriptionFontSize,
         _stateData$state$desc = _stateData$state.description,
-        description = _stateData$state$desc === undefined ? state + ' is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state. is a state.' : _stateData$state$desc;
+        description = _stateData$state$desc === undefined ? state + 'Some shit\'s missing here.' : _stateData$state$desc;
 
     // create the state svg element
 
@@ -458,14 +459,16 @@ function renderStateDescription() {
         innerHeight = _window.innerHeight;
 
     var descriptionWidth = $stateDescription.offsetWidth;
-    var descriptionHeight = $stateDescription.offsetHeight;
+    var descriptionHeight = $stateDescription.offsetHeight + 10;
 
-    var x = clientX + descriptionWidth > innerWidth ? clientX - descriptionWidth : clientX;
+    var padding = 50;
+
+    var x = Math.max(5, clientX + descriptionWidth + padding + 5 > innerWidth ? clientX - descriptionWidth - padding : clientX + padding);
 
     var y = clientY < descriptionHeight ? 0 : clientY - descriptionHeight;
 
     Object.assign($stateDescription.style, {
-      padding: '5px',
+      padding: '.7em .8em',
       left: x + 'px',
       top: y + 'px',
       'font-size': descriptionFontSize ? descriptionFontSize + 'px' : ''
