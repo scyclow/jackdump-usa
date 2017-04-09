@@ -484,6 +484,13 @@ function renderMap({states, scale}) {
     translateY(${translateOffset})
   `
 
+  $map.style['-webkit-transform'] = `
+    scaleX(${scale})
+    scaleY(${scale})
+    translateX(${translateOffset})
+    translateY(${translateOffset})
+  `
+
   return states
 }
 

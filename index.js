@@ -492,6 +492,8 @@ function renderMap(_ref) {
 
   $map.style['transform'] = '\n    scaleX(' + scale + ')\n    scaleY(' + scale + ')\n    translateX(' + translateOffset + ')\n    translateY(' + translateOffset + ')\n  ';
 
+  $map.style['-webkit-transform'] = '\n    scaleX(' + scale + ')\n    scaleY(' + scale + ')\n    translateX(' + translateOffset + ')\n    translateY(' + translateOffset + ')\n  ';
+
   return states;
 }
 
